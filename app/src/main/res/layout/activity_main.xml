@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F3ED"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Logo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="🌿"
+            android:textSize="44sp" />
+
+        <!-- App Name -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Smart Pantry Manager"
+            android:textColor="#163D32"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!-- Slogan -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Plan it. Store it. Cook it."
+            android:textColor="#6B625A"
+            android:textSize="16sp" />
+
+        <!-- Pantry Image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="Pantry ingredients"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pantry_home" />
+
+        <!-- My Pantry -->
+        <Button
+            android:id="@+id/btnPantry"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#174C3C"
+            android:text="MY PANTRY   ›"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <!-- Recipes -->
+        <Button
+            android:id="@+id/btnRecipes"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="14dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="RECIPES   ›"
+            android:textColor="#174C3C"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <!-- Settings -->
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#B66A2C"
+            android:text="SETTINGS   ›"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

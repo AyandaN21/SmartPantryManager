@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F3ED"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Settings"
+            android:textColor="#163D32"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- Measurement Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Measurement Preference"
+            android:textColor="#163D32"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Choose how measurements are displayed."
+            android:textColor="#77716B"
+            android:textSize="14sp" />
+
+        <!-- Unit Options -->
+        <RadioGroup
+            android:id="@+id/radioGroupUnits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <RadioButton
+                android:id="@+id/radioMetric"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:buttonTint="#174C3C"
+                android:text="Metric (kg, g, litre, ml)"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioImperial"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:buttonTint="#174C3C"
+                android:text="Imperial (lb, oz, cup, tsp)"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <!-- Information -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="About"
+            android:textColor="#163D32"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:padding="18dp"
+            android:text="Smart Pantry Manager helps you keep track of pantry ingredients and discover recipes you can make."
+            android:textColor="#555555"
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Save -->
+        <Button
+            android:id="@+id/btnSaveSettings"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#174C3C"
+            android:text="SAVE SETTINGS"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
